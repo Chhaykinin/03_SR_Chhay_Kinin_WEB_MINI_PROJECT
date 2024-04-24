@@ -4,7 +4,7 @@ import React from 'react'
 const RegisterPage = () => {
     return (
         <main>
-            <section className="bg-gray-50 dark:bg-gray-900 bg-slate-400">
+            <section className="bg-gray-50 dark:bg-gray-900 bg-emerald-50">
                 <div className="flex items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0 gap-20">
 
                     <div className="w-full  bg-emerald-50 rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">

@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import React from "react";
 
@@ -12,9 +13,9 @@ export default function WorkspacePopupComponent() {
       {/* Put this part before </body> tag */}
       <input type="checkbox" id="my_modal_6" className="modal-toggle" />
       <div className="modal" role="dialog">
-        <div className="modal-box">
+        <div className="modal-box" >
           <h3 className="font-bold text-lg capitalize">create new workspace</h3>
-          <input
+          <input 
             type="text"
             name="workspaceName"
             placeholder="workspace name"

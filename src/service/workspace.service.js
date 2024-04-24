@@ -7,7 +7,22 @@ export const getAllWorkspacesServer = async ()=>{
             headers: header
         }
     );
-    const data= await res.json();
+    const data = await res.json();
     return data;
-    // console.log("data in service", data);
+   
+}
+
+export const insertWorkSpaceservice = async(workData)=>{
+    const res= await fetch(
+        "http://110.74.194.123:8989/api/todo/v1/workspaces",
+        {
+            method:"POST",
+            body:JSON.stringify(workData),
+            headers:{
+                "content-type":"application/json"
+            }
+        }
+    )
+    const data=await res.json();
+    return data;
 }

@@ -1,3 +1,4 @@
+import AddNewTaskComponent from '@/components/AddNewTaskComponent';
 import ListBoardComponentHeader from '@/components/ListBoardComponentHeader';
 import NavbarComponent from '@/components/NavbarComponent';
 import SidebarComponent from '@/components/SidebarComponent';
@@ -33,6 +34,10 @@ const TodoBoardPage = () => {
           <TodoCardComponent/>
           <TodoCardComponent/>
           <TodoCardComponent/>
+        </div>
+       
+        <div className="float-end  mt-5">
+          <AddNewTaskComponent/>
         </div>
       </div>
      
