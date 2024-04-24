@@ -13,7 +13,7 @@ export const authOption={
                 };
                 const login =await loginService(newUserInfo);
                 console.log("login:",login);
-                // console.log("user info in next auth",userInfo);
+                return login;
                 //call login services
             },
         }),
